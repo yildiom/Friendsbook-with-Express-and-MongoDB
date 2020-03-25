@@ -1,0 +1,11 @@
+export const ADD_FIRSTNAME = 'ADD_FIRSTNAME';
+export const ADD_LASTNAME = 'ADD_LASTNAME';
+export const ADD_AGE = 'ADD_AGE';
+export const SUBMIT_FRIEND = 'SUBMIT_FRIEND';
+export const DELETE_FRIEND = 'DELETE_FRIEND';
+export const SORT_FRIENDS = 'SORT_FRIENDS';
+export const UPDATE_FIRSTNAME = 'ADD_FIRSTNAME';
+export const UPDATE_LASTNAME = 'ADD_LASTNAME';
+export const UPDATE_AGE = 'ADD_AGE';
+export const SUBMIT_UPDATE = 'SUBMIT_UPDATE';
+export const EMPTY_FORM = 'EMPTY_FORM';

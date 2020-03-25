@@ -1,0 +1,76 @@
+@import "./base/reset";
+@import "./base/fonts";
+@import "./base/variables";
+@import "./base/mixins";
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+h4,
+p,
+.modal-title,
+.modal-body,
+fieldset {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  display: flex;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 5%;
+  margin-top: 7px;
+  .sort {
+    margin: 0 0 5px 440px;
+  }
+  .card {
+    border: solid 2px #007bff;
+    margin-bottom: 5px;
+    .age {
+      margin-left: 20px;
+    }
+    .buttonHolder {
+      display: flex;
+    }
+  }
+  .update {
+    margin-left: 10px;
+  }
+}
+
+fieldset {
+  border: solid 2px #007bff;
+  border-radius: 0.25rem;
+  padding: 20px 20px;
+  legend {
+    width: 30%;
+    color: #007bff;
+    font-weight: bold;
+  }
+  .form-label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    //color: #007BFF;
+  }
+}
+
+.nav-item a {
+  color: white;
+  margin-right: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: "Monoton", cursive;
+}
